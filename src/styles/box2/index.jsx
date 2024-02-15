@@ -25,7 +25,11 @@ export const Box2Wrapper=styled.div`
         width: 100%;
     }
 `
-
-export const Market=styled.p`
+export const Market = styled.p`
+    &.active{
+        border-bottom: 2px solid #0082CA;
+        padding-bottom: 13px;
+        z-index: 2;
+    }
 `
 
