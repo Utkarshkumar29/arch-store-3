@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Box2Container, Box2Wrapper, Market } from "../../styles/box2";
 
 export const Box2=()=>{
-    const [clicked,setClicked]=useState('')
+    const [clicked,setClicked]=useState('item1')
 
     return(
         <Box2Container>
