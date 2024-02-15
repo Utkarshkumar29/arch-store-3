@@ -57,6 +57,10 @@ export const PieChartWrapper=styled.div`
         flex-direction: column;
         margin-top: 20px;
     } 
+
+    @media (max-width:1100px) {
+        gap: 5px;
+    } 
 `
 
 export const PieChartDetails=styled.div`
@@ -186,4 +190,15 @@ export const ImageWrapper=styled.div`
 export const Pie=styled.img`
     max-width: 300px;
     width: 100%;
+    height: auto;
+
+    @media (max-width:555px) {
+        margin-top: 10px;
+    }
+`
+
+export const Image=styled.img`
+    max-width: 700px;
+    width: 100%;
+    height: auto;
 `

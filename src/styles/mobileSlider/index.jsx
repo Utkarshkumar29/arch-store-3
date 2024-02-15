@@ -21,6 +21,7 @@ export const IconWrapper=styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 3;
 `
 
 export const Close=styled.div`

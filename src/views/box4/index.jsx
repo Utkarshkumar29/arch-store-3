@@ -1,5 +1,5 @@
 import React from "react";
-import { Box4Container, Box4Wrapper, CategoryWrapper, CurentMarket, Image, ImageWrapper, Industry, MarketContainer, MarketDescription, MarketWrapper, MeterWrapper, Note, Note1, Note2, NoteWrapper, PointsWrapper, Rating, TextWrapper, TimePeriod } from "../../styles/box4";
+import { Box4Container, Box4Wrapper, CategoryWrapper, CurentMarket, GraphImage, Image, ImageWrapper, Industry, MarketContainer, MarketDescription, MarketWrapper, MeterWrapper, Note, Note1, Note2, NoteWrapper, PointsWrapper, Rating, TextWrapper, TimePeriod } from "../../styles/box4";
 import Graph from "../../assets/Line and bar chart.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBullhorn, faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
@@ -29,7 +29,7 @@ const Box4=()=>{
                         <p>Geograpghy</p>
                     </CategoryWrapper>
                     <div style={{padding:"10px"}}>
-                        <Image src={Graph} alt="Error"/>
+                        <GraphImage src={Graph} alt="Error"/>
                     </div>
                     <NoteWrapper>
                         <FontAwesomeIcon icon={faBullhorn}/>
@@ -48,9 +48,7 @@ const Box4=()=>{
                         <Image src={Meter} alt="Error"/>
                     </ImageWrapper>
                     <TextWrapper>
-                        <p>You can achieve </p>
-                        <p style={{color:"#10B981",fontWeight:"400",padding:"0px 5px 0px 5px"}}>44%</p>
-                        <p> more opportunities in market</p>
+                        <p>You can achieve <span>44%</span> more opportunities in market</p>
                     </TextWrapper>
                     <PointsWrapper>
                         <p>Your Position in Market</p>

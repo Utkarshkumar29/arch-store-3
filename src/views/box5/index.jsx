@@ -1,9 +1,8 @@
 import React from "react";
-import { Box5Container, Box5Wrapper, PieChartWrapper, Industry, PieChartDetails, PointsWrapper, InfoWrapper, TrendWrapper, AdWrapper, AdTrend, AdTitle, AdInterest, Interest, ImageWrapper, Pie, Wooden, Stone, Pattern } from "../../styles/box5";
+import { Box5Container, Box5Wrapper, PieChartWrapper, Industry, PieChartDetails, PointsWrapper, InfoWrapper, TrendWrapper, AdWrapper, AdTrend, AdTitle, AdInterest, Interest, ImageWrapper, Pie, Wooden, Stone, Pattern, Image } from "../../styles/box5";
 import { faArrowRight, faArrowTrendUp, faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PieChart from "../../assets/Pie chart.svg"
-import { Image } from "../../styles/box4";
 import Graph from "../../assets/Graph.svg"
 
 const Box5=()=>{
@@ -34,7 +33,7 @@ const Box5=()=>{
                     </PieChartWrapper>
                     <InfoWrapper>
                         <FontAwesomeIcon icon={faArrowTrendUp}/>
-                        <p>Wooden floor is in trending , set up campaign for wooden tiles to reach these users</p>
+                            <p>Wooden floor is in trending , set up campaign for wooden tiles to reach these users</p>
                         <FontAwesomeIcon icon={faArrowRight}/>
                     </InfoWrapper>
                 </TrendWrapper>

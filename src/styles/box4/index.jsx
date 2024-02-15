@@ -12,17 +12,27 @@ export const Box4Wrapper=styled.div`
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+
+    @media (max-width:900px){
+        gap: 5px;
+        flex-direction: column; 
+    }
+
+    @media (max-width:426px) {
+    }
 `
 
 export const MarketContainer=styled.div`
     border: 2px solid lightgray;
     border-radius: 20px;
     flex: 1.5;
-    max-width: 800px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width:595px){
+        flex: 1;
+    }
 `
 
 export const MarketWrapper=styled.div`
@@ -148,6 +158,10 @@ export const MeterWrapper=styled.div`
     border: 2px solid lightgray;
     border-radius: 20px;
     flex: 1;
+
+    @media (max-width:595px){
+        flex: 1;
+    }
 ` 
 
 export const Industry=styled.div`
@@ -180,6 +194,11 @@ export const TextWrapper=styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
+    text-align: center;
+
+    span{
+        color: #10B981;
+    }
 
     &::after{
         content: "";
@@ -226,7 +245,13 @@ export const PointsWrapper=styled.div`
 `
 
 export const Image=styled.img`
-    max-width: 800px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+`
+
+export const GraphImage=styled.img`
+    max-width: 700px;
     width: 100%;
     height: auto;
 `
