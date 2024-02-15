@@ -1,4 +1,4 @@
-import { faBars, faClose, faCloudArrowDown, faL, faLeftRight, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faClose, faCloudArrowDown, faLeftRight, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { Bar, Box1Container, Box1Heading, Box1Wrapper, Close, CustomizeContainer, ExportContainer, OptionContainer, SearchWrapper } from "../../styles/box1";

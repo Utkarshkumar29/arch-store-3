@@ -1,5 +1,5 @@
 import React from "react";
-import { Box5Container, Box5Wrapper, PieChartWrapper, Industry, PieChartDetails, PointsWrapper, InfoWrapper, TrendWrapper, AdWrapper, AdTrend, AdTitle, AdInterest, Interest, ImageWrapper, Pie } from "../../styles/box5";
+import { Box5Container, Box5Wrapper, PieChartWrapper, Industry, PieChartDetails, PointsWrapper, InfoWrapper, TrendWrapper, AdWrapper, AdTrend, AdTitle, AdInterest, Interest, ImageWrapper, Pie, Wooden, Stone } from "../../styles/box5";
 import { faArrowRight, faArrowTrendUp, faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PieChart from "../../assets/Pie chart.svg"
@@ -22,13 +22,13 @@ const Box5=()=>{
                                 <p>32%</p>
                                 <p>Pattern Tiles</p>
                             </PointsWrapper>
-                            <PointsWrapper>
+                            <PointsWrapper  >
                                 <p>49%</p>
-                                <p>Wooden Floor</p>
+                                <Wooden>Wooden Floor</Wooden>
                             </PointsWrapper>
                             <PointsWrapper>
                                 <p>27%</p>
-                                <p>Stone Textured Tiles</p>
+                                <Stone>Stone Textured Tiles</Stone>
                             </PointsWrapper>
                         </PieChartDetails>
                     </PieChartWrapper>
@@ -49,7 +49,7 @@ const Box5=()=>{
                             <AdInterest>
                                 <p>4,862</p>
                                 <Interest>
-                                    <FontAwesomeIcon icon={faArrowTrendUp} style={{color:"#17B26A",paddingTop:"21px"}}/>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} style={{color:"#17B26A"}}/>
                                     <p>9.2%</p>
                                 </Interest>
                             </AdInterest>
@@ -59,7 +59,7 @@ const Box5=()=>{
                             <AdInterest>
                                 <p>2,671</p>
                                 <Interest>
-                                    <FontAwesomeIcon icon={faArrowTrendUp} style={{color:"#17B26A",paddingTop:"21px"}}/>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} style={{color:"#17B26A"}}/>
                                     <p>6.6%</p>
                                 </Interest>
                             </AdInterest>
@@ -69,7 +69,7 @@ const Box5=()=>{
                             <AdInterest>
                                 <p>82%</p>
                                 <Interest>
-                                    <FontAwesomeIcon icon={faArrowTrendUp} style={{color:"#17B26A",paddingTop:"21px"}}/>
+                                    <FontAwesomeIcon icon={faArrowTrendUp} style={{color:"#17B26A"}}/>
                                     <p>8.1%</p>
                                 </Interest>
                             </AdInterest>

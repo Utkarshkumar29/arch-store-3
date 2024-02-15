@@ -20,6 +20,9 @@ export const MarketContainer=styled.div`
     flex: 1.5;
     max-width: 800px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `
 
 export const MarketWrapper=styled.div`
@@ -133,6 +136,7 @@ export const Note1=styled.p`
 
 export const Note2=styled.p`
     margin: 0;
+    font-size: 17px;
 
     @media (max-width:426px) {
         font-size: 12px;

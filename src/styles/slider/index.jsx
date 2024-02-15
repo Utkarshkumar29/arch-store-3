@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const SliderContainer=styled.div`
-    max-width: 150px;
-    width: 100%;
+    max-width: 100px;
+    width: 100%;    
     height: 100vh;
 
     @media (max-width:800px) {

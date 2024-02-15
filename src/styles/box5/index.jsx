@@ -87,12 +87,34 @@ export const PointsWrapper=styled.div`
             position: absolute;
             top: 6px;
             left: 0px;
-            background-color: #071C47;
             display: block;
             width: 10px;
             height: 10px;
             border-radius: 50%;
         }
+
+        @media (max-width:426px) {
+            font-size: 14px;
+            justify-content: center;
+        }
+    }
+`
+
+export const Pattern=styled.p`
+    &::before{
+        background-color: #071C47;
+    }
+`
+
+export const Wooden=styled.p`
+    &::before{
+        background-color: #2C678E;
+    }
+`
+
+export const Stone=styled.p`
+    &::before{
+        background-color: #E1A739;
     }
 `
 
@@ -121,12 +143,22 @@ export const AdTrend=styled.div`
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+
+    @media (max-width:426px) {
+        gap: 10px;
+    }
 `
 
 export const AdTitle=styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    p{
+        @media (max-width:426px) {
+            margin: 5px;
+        }
+    }
 `
 
 export const AdInterest=styled.div`
@@ -140,10 +172,8 @@ export const AdInterest=styled.div`
 export const Interest=styled.div`
     display: flex;  
     gap: 10px;
-
-    &:nth-child(2){
-        color: #17B26A;
-    }
+    align-items: center;
+    padding-bottom: 20px;
 `
 
 export const ImageWrapper=styled.div`
