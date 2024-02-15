@@ -1,5 +1,5 @@
 import React from "react";
-import { Box5Container, Box5Wrapper, PieChartWrapper, Industry, PieChartDetails, PointsWrapper, InfoWrapper, TrendWrapper, AdWrapper, AdTrend, AdTitle, AdInterest, Interest, ImageWrapper, Pie, Wooden, Stone } from "../../styles/box5";
+import { Box5Container, Box5Wrapper, PieChartWrapper, Industry, PieChartDetails, PointsWrapper, InfoWrapper, TrendWrapper, AdWrapper, AdTrend, AdTitle, AdInterest, Interest, ImageWrapper, Pie, Wooden, Stone, Pattern } from "../../styles/box5";
 import { faArrowRight, faArrowTrendUp, faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PieChart from "../../assets/Pie chart.svg"
@@ -20,7 +20,7 @@ const Box5=()=>{
                         <PieChartDetails>
                             <PointsWrapper>
                                 <p>32%</p>
-                                <p>Pattern Tiles</p>
+                                <Pattern>Pattern Tiles</Pattern>
                             </PointsWrapper>
                             <PointsWrapper  >
                                 <p>49%</p>
