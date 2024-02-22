@@ -157,8 +157,12 @@ export const AdTitle=styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 20px;
 
     p{
+        padding: 0;
+        margin: 0;
+
         @media (max-width:426px) {
             margin: 5px;
         }
